@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:not(input) {
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+}
+
+input:focus {
+    outline: 2px solid #2a2a2a;
+}

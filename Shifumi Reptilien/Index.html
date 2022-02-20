@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifumi</title>
+    <link rel="stylesheet" href="./css/global.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/rules.css">
+</head>
+<body>
+    <section class="popup-background hidden">
+        <div class="popup">
+            <div>
+                <p class="popup-title">Rules</p>
+                <p class="popup-rules">
+                    <li>The stone crushes the lizard.</li>
+                    <li>The stone crushes the scissors.</li>
+                    <ul class="rules-sublist">
+                        <li>Sheet Paper wraps the stone.</li>
+                        <li>The paper disavows Spock.</li>
+                    </ul>
+                    <li>Scissors Scissors cut paper.</li>
+                    <ul class="rules-sublist">
+                        <li>Scissors decapitate the lizard.</li>
+                        <li>Lizard The lizard poisons Spock.</li>
+                    </ul>
+                    <li>The lizard eats the paper.</li>
+                    <li>Spock Spock crushes the scissors.</li>
+                    <li>Spock destroys the stone.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="popup-footer">
+                <a onclick="javascript:closeRules()" class="popup-btn">Close</a>
+            </div>
+        </div>
+    </section>
+    <section id="welcome">
+        <h1 class="title">Shifumi Lézard Spock</h1>
+        <div class="btn-group">
+            <a href="play.html" class="btn">Play</a>
+            <a onclick="javascript:displayRules();" class="btn">Rules</a>
+        </div>
+        <p class="credits">&copy;Copyright La communauté du roseaux ronfleur - Tous droits réservés</p>
+    </section>
+    <script src="./js/rules.js"></script>
+</body>
+</html>
